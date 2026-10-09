@@ -884,3 +884,7 @@ Public repoに入れないもの:
 - n8n expression/node mappingからfield-level lineageをどこまで推論するか
 - OpenLineageとのimport/export boundary
 - architecture rule validationをOPAで統一するか独立rule APIを用意するか
+
+## 再確認 (2026-10-09)
+
+first implementation milestone の acceptance criteria 9項目は main (be62952) で達成済み (`src/core/architecture-graph.js` / `graph-projection.js` / `semantic-entity.js`、provider: BPMN/Bonita BDM/OPA/Dagu、navigate-to-source e8f86cd)。ただし本書は Phase 3-7 と open questions を追う living document で、next slice (n8n provider 等) が明示されているため open のまま保持する。

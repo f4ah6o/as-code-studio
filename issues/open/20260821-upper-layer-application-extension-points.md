@@ -195,3 +195,7 @@ This issue does NOT implement:
 Implement bottom-up. Do not build all extension points speculatively.
 
 Prefer extracting a generic primitive only when an actual upper-layer use case or a second internal consumer proves the boundary.
+
+## 再確認 (2026-10-09)
+
+main (be62952) では embeddable Artifact View API・generic Resource/Reference・Proposal/Diff/Apply の各 primitive が未実装 (unchecked criteria 3件)。引き続き open。

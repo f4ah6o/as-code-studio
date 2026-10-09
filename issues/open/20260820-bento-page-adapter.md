@@ -144,3 +144,7 @@ As-Code Studio workspace storage を利用する。
 - [ ] `.bento.html` として export できる
 - [ ] preview が sandbox されている
 - [ ] BPMN / Mermaid と同じ header selector から切替できる
+
+## 再確認 (2026-10-09)
+
+main (be62952) に Bento adapter なし (`.bento.html` import/validation/export すべて未実装、acceptance criteria 全項目未達)。引き続き open。
